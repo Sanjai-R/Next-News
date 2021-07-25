@@ -24,7 +24,7 @@ export default function Home({ results }) {
           <input
             className="w-full h-10 bg-search text-desc rounded  focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg"
             type="search"
-            placeholder="Search..."
+            placeholder="Search...."
             value={query}
             onChange={(e) => {
               setQuery(e.target.value);
